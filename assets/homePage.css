@@ -16,22 +16,26 @@ margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 100px;
     padding-bottom: 50px;
+
 }
 
-button{
-    width: 120px;
+.sec1 div button{
+    width: 125px;
     font-size: x-small;
     height: 25px;
+    text-align: center;
 }
 
-img{
+.sec1 img{
     width: 600px;
     height: 400px;
     display: block;
+    margin-top: 40px;
+    
 }
   
 .sec1 p{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 0;
@@ -41,26 +45,25 @@ img{
     width: 55px;
     height: 55px;
     border-radius: 4px;
+    
 
 }
 .sec2{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
-.row.g-0{
-    display: flex;
+
+.card-title{
+    padding-bottom: 0;
+    font-size: medium;
 }
-h5{
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 7px;
+.card-text{
+    font-size:smaller;
+    margin: 0;
+    padding: 0;
 }
-h5 + p{
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 7px;
-}
+
 .card-title{
     margin-top: 10px;
 }
@@ -73,5 +76,26 @@ h5 + p{
     width: 55px;
     height: 55px;
     border-radius: 4px;
-    margin-bottom: 5px;
+    
+}
+.sec4{
+    width: 80%;
+    margin: auto;
+    margin-left: 115px;
+}
+
+h2{
+    
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+}
+a{
+    margin-right: 20px; 
+    
 }
