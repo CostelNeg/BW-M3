@@ -78,16 +78,17 @@ margin-bottom: 50px;
     border-radius: 4px;
     
 }
-.sec4{
+footer .sec4{
     width: 80%;
     margin: auto;
     margin-left: 115px;
+    border-bottom: solid gray 1px;
 }
 
-h2{
-    
-    margin-top: 70px;
-    margin-bottom: 30px;
+footer h2{
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 .nav{
     display: flex;
@@ -97,5 +98,33 @@ h2{
 }
 a{
     margin-right: 20px; 
+  
+    
+}
+footer{
+    background-color: rgb(244, 239, 239);
+}
+
+.sec6{
+    display: flex;
+    width: 80%;
+    margin-left: 115px;
+    margin: auto;
+}
+footer .table{
+    display: flex;
+    flex-direction: column;
+}
+address{
+    display: flex;
+  
+}
+address div{
+    margin-right: 200px;
+    color: gray;
+}
+address div p:nth-child(1){
+    color:black;
+    
     
 }
