@@ -2,237 +2,334 @@
 <html lang="it">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/apartamento.css">
 </head>
 
 <body>
-    <main>
-        <section id="gallery" class="container ">
+  <main>
+    <div class="row">
+      <div class="d-flex col-12 justify-content-between align-items-center ">
+        <h1>MONOLOCALE VICINO ALL'IIT cod.CITRA 010025-LT-0803</h1>
+        <div class="d-flex ">
+          <button class="btn btn-primary border-0 ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-upload"
+              viewBox="0 0 16 16">
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+              <path
+                d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708z" />
+            </svg>
+            <u>Condividi</u>
+          </button>
+          <button class="btn btn-primary border-0 ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart"
+              viewBox="0 0 16 16">
+              <path
+                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+            </svg>
+            <u>Salva</u>
+          </button>
+        </div>
+      </div>
+    </div>
+    <section id="gallery" class="container ">
+      <div class="row row-cols-2 ">
+        <img src="./assets/imgs/1.webp" class="rounded-start-5  " alt="">
+        <div class="row row-cols-2 ">
+          <img class="mb-2" src="./assets/imgs/2.webp" alt="">
+          <img class="mb-2" src="./assets/imgs/3.webp" alt="">
+          <img class="mt-2" src="./assets/imgs/4.webp" alt="">
+          <img class="mt-2" src="./assets/imgs/5.webp" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="description" class="container">
+      <div class="row">
+        <div class="col-8">
+          <div class="card border-0 ">
+            <div class="row g-0">
+              <h2 class="card-title">Genova, Italia. Intero alloggio: appartamento</h2>
+              <ul class="list-group list-group-horizontal ">
+                <li class="list-group-item p-0 border-0">2 ospiti</li>
+                <li class="list-group-item p-0 border-0 central-dot">1 camera da letto</li>
+                <li class="list-group-item p-0 border-0 central-dot">2 letti</li>
+                <li class="list-group-item p-0 border-0 central-dot">1 bagno</li>
+              </ul>
+              <ul class="list-group list-group-horizontal ">
+                <li class="list-group-item p-0 border-0 pe-1 ">
+                  <!-- star -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                  </svg>
+                </li>
+                <li class="list-group-item p-0 border-0 ">4.81</li>
+                <li class="list-group-item p-0 border-0 central-dot"><a href="#">84 recensioni</li></a>
+              </ul>
+
+
+
+              <hr class="my-3 ">
+              <div class="col-1 d-flex align-items-center ">
+                <img src="./assets/imgs/propic.png" class="img-fluid rounded-start" width="50" height="50" alt="...">
+              </div>
+              <div class="col-11 ">
+                <div class="card-body p-0 ">
+                  <h5 class="card-title">Nome dell'host: Sabina</h5>
+                  <ul class="list-group list-group-horizontal ">
+                    <li class="list-group-item p-0 border-0 ">Superhost</li>
+                    <li class="list-group-item p-0 border-0 central-dot">5 anni di esperienza come
+                      host</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row g-0">
+              <div class="col-1 ">
+                <div class="icons">
+                  <!-- vasca -->
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 24px; width: 24px; fill: currentcolor;">
+                    <path
+                      d="M26 2a1 1 0 0 1 .92.61l.04.12 2 7a1 1 0 0 1-.85 1.26L28 11h-3v5h6v2h-2v13h-2v-2.54a3.98 3.98 0 0 1-1.73.53L25 29H7a3.98 3.98 0 0 1-2-.54V31H3V18H1v-2h5v-4a1 1 0 0 1 .88-1h.36L6.09 8.4l1.82-.8L9.43 11H12a1 1 0 0 1 1 .88V16h10v-5h-3a1 1 0 0 1-.99-1.16l.03-.11 2-7a1 1 0 0 1 .84-.72L22 2h4zm1 16H5v7a2 2 0 0 0 1.7 1.98l.15.01L7 27h18a2 2 0 0 0 2-1.85V18zm-16-5H8v3h3v-3zm14.24-9h-2.49l-1.43 5h5.35l-1.43-5z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <div class="col-11 ">
+                <div class="card-body p-0 ">
+                  <h5 class="card-title m-0 ">Spazio di lavoro dedicato</h5>
+                  <p class="card-text">Un'area comune con connessione wifi, adatta per lavorare.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row g-0">
+              <div class="col-1">
+                <div class="icons">
+                  <!-- porta -->
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 24px; width: 24px; fill: currentcolor;">
+                    <path
+                      d="M24.33 1.67a2 2 0 0 1 2 1.85v24.81h3v2H2.67v-2h3V3.67a2 2 0 0 1 1.85-2h.15zm-4 2H7.67v24.66h12.66zm4 0h-2v24.66h2zm-7 11a1.33 1.33 0 1 1 0 2.66 1.33 1.33 0 0 1 0-2.66z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <div class="col-11 ">
+                <div class="card-body p-0 ">
+                  <h5 class="card-title m-0 ">Self check-in</h5>
+                  <p class="card-text">Esegui autonomamente il check-in usando la cassetta di
+                    sicurezza.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row g-0">
+              <div class="col-1">
+                <div class="icons">
+                  <!-- calendario -->
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                    focusable="false" style="display: block; height: 24px; width: 24px; fill: currentcolor;">
+                    <path
+                      d="M11.67 0v1.67h8.66V0h2v1.67h6a2 2 0 0 1 2 1.85v16.07a2 2 0 0 1-.46 1.28l-.12.13L21 29.75a2 2 0 0 1-1.24.58H6.67a5 5 0 0 1-5-4.78V3.67a2 2 0 0 1 1.85-2h6.15V0zm16.66 11.67H3.67v13.66a3 3 0 0 0 2.82 3h11.18v-5.66a5 5 0 0 1 4.78-5h5.88zm-.08 8h-5.58a3 3 0 0 0-3 2.82v5.76zm-18.58-16h-6v6h24.66v-6h-6v1.66h-2V3.67h-8.66v1.66h-2z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <div class="col-11 ">
+                <div class="card-body p-0 ">
+                  <h5 class="card-title m-0  ">Cancellazione gratuita entro il giorno 25 mag</h5>
+                  <p class="card-text">Se dovessi cambiare idea, riceverai un rimborso totale.</p>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="col-12 ">
+              <div class="card-body bg-primary rounded ">
+                <p class="card-text m-0 ">Alcune informazioni sono state tradotte automaticamente.</p>
+                <a class="card-link" href="#">Mostra il testo nella lingua originale</a>
+              </div>
+            </div>
+            <div class="col-12 ">
+              <div class="card-body p-0 ">
+                <p class="card-text text-wrap overflow-hidden ">
+                  Un accogliente punto di appoggio fuori dal caos del centro cittadino. 28 mq con
+                  tutto ciò che serve per cucinare, rilassarsi, sentirsi a casa. Colazione inclusa.
+                  Posteggi gratis in strada. Lavatrice, stendino, mollette, asse e ferro da stiro;
+                  fornetto elettrico, microonde, lavastoviglie. Bagno: lavandino, bidet, doccia.
+                  Tavoli e sedie, armadio, poltrona dondolo. Divano letto matrimoniale. Libri su
+                  Genova e la Liguria, giochi da tavolo,
+                  cd,
+                  radio. Wi-Fi pocket. No
+                  TV.
+
+                  Lo spazio
+                  Una piccola palazzina costruita nel 1850 che un tempo era un mulino.
+                  Una casetta dal soffitto basso ma piena di luce grazie alle tre finestre esposte a
+                  sud.
+
+                  Accesso per gli ospiti
+                  Gli ospiti avranno a loro disposizione l'intera casa (eccezion fatta per gli
+                  scaffali
+                  del
+                  ripostiglio nel sottoscala in
+                  cui ci sono oggetti personali della host).
+                  Parcheggio gratis ovunque nei dintorni della casa.
+                  Comodità per chi ha l'auto a metano: punto di rifornimento vicinissimo a casa.
+                  Per chi vuole raggiungere il centro città, l'entroterra oppure andare a ponente o
+                  levante:
+                  ingresso
+                  dell'autostrada
+                  (Genova Bolzaneto) a 1,5 km.
+
+                  Altre cose da tenere a mente
+                  Al momento del check-in verrà richiesto ad ogni ospite il documento di identità.
+
+                  Soggiorni oltre i 30 giorni (con contratto transitorio registrato, come obbligatorio
+                  per
+                  legge) sono
+                  permessi
+                  esclusivamente tra ottobre e marzo.
+
+                  È un quartiere in cui ancora (per fortuna) si può trovare chi svolge lavori manuali.
+                  Potrebbe
+                  esserci del rumore dovuto
+                  a questo. Mi scuso in anticipo per l’eventuale disagio.
+                </p>
+                <div class="d-flex align-items-center">
+                  <a class="card-link me-1 " href="#">Mostra altro</a>
+                  <!-- parentesi angolare chiusa -->
+                  <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false"
+                    style="height: 12px; width: 12px; display: block; fill: var(--linaria-theme_palette-hof);">
+                    <path d="m4.29 1.71a1 1 0 1 1 1.42-1.41l8 8a1 1 0 0 1 0 1.41l-8 8a1 1 0 1 1 -1.42-1.41l7.29-7.29z"
+                      fill-rule="evenodd"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+          <section id="doveDormirai">
             <div class="row">
-                <div class="d-flex col-12 justify-content-between align-items-center ">
-                    <h1>MONOLOCALE VICINO ALL'IIT cod.CITRA 010025-LT-0803</h1>
-                    <div class="d-flex ">
-                        <button>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-upload" viewBox="0 0 16 16">
-                                <path
-                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
-                                <path
-                                    d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708z" />
-                            </svg>
-                            <a href="#">Condividi</a></button>
-                        <button>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-heart" viewBox="0 0 16 16">
-                                <path
-                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
-                            </svg>
-                            <a href="#">Salva</a></button>
-                    </div>
+              <h2>Dove dormirai</h2>
+              <div class="col-6">
+                <div class="card border-0 ">
+                  <img
+                    src="https://a0.muscache.com/im/pictures/miso/Hosting-35281596/original/d8d3af17-36de-4d59-ada7-781f83da4ba0.jpeg?im_w=240"
+                    class="card-img-top rounded-4" alt="">
+                  <div class="card-body ">
+                    <h6 class="card-title ">Camera da letto</h6>
+                    <p class="card-text ">1 divano letto</p>
+                  </div>
                 </div>
+              </div>
+              <div class="col-6">
+                <div class="card border-0 ">
+                  <img
+                    src="https://a0.muscache.com/im/pictures/miso/Hosting-35281596/original/1a6e777a-c1ba-4ba5-8a7e-b28e551bca0f.jpeg?im_w=240"
+                    class="card-img-top rounded-4 " alt="">
+                  <div class="card-body ">
+                    <h6 class="card-title ">Salotto</h6>
+                    <p class="card-text ">1 divano letto</p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </section>
 
-            <div class="row row-cols-2 py-5 ">
-                <img src="./assets/imgs/1.webp" alt="">
-                <div class="row row-cols-2 ">
-                    <img class="mb-2" src="./assets/imgs/2.webp" alt="">
-                    <img class="mb-2" src="./assets/imgs/3.webp" alt="">
-                    <img class="mt-2" src="./assets/imgs/4.webp" alt="">
-                    <img class="mt-2" src="./assets/imgs/5.webp" alt="">
+
+
+        </div>
+        <div class="col-4 ">
+          <div class="card mb-5 shadow ">
+            <div class="card-body ">
+              <h5 class="card-title d-inline mb-3">39€</h5><span> notte</span>
+              <form class="d-flex mb-3 justify-content-center flex-wrap ">
+                <div class="list-group mb-3 ">
+                  <div class="list-group-item p-0 ">
+                    <label for="checkIn" class="form-label text-uppercase ps-1 ">check-in</label>
+                    <input type="date" class="form-control border-0 ps-2" id="checkIn" name="checkIn">
+                  </div>
                 </div>
+                <div class="list-group ">
+                  <div class="list-group-item p-0 ">
+                    <label for="checkOut" class="form-label text-uppercase ps-1 ">check-out</label>
+                    <input type="date" class="form-control border-0 ps-2" id="checkOut" name="checkOut">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-secondary w-100 ">Prenota</button>
+              </form>
+              <span class="px-5 d-block text-center  ">Non riceverai alcun addebito in questa fase</span>
+              <div class="priceList">
+                <div>
+                  <a href="#" class="card-link ">39€ per 5 notti</a><span>195 €</span>
+                </div>
+                <div>
+                  <a hef="#" class="card-link ">Costi di pulizia</a><span>30 €</span>
+                </div>
+                <div>
+                  <a href="#" class="card-link ">Costi del servizio Airbnb</a><span>39 €</span>
+                </div>
+                <div>
+                  <a href="#" class="card-link ">Tasse di soggiorno</a><span>15 €</span>
+                </div>
+                <hr>
+                <div>
+                  <h5>Totale</h5>
+                  <span><strong>279 €</strong></span>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <section id="description" class="container">
-            <div class="row">
-                <div class="col-8">
-                    <div class="card border-0 ">
-                        <div class="row g-0">
-                            <h2 class="card-title">Genova, Italia. Intero alloggio: appartamento</h2>
-                            <ul class="list-group list-group-horizontal ">
-                                <li class="list-group-item p-0 border-0 ">2 ospiti</li>
-                                <li class="list-group-item p-0 border-0 ">1 camera da letto</li>
-                                <li class="list-group-item p-0 border-0 ">2 letti</li>
-                                <li class="list-group-item p-0 border-0 ">1 bagno</li>
-                            </ul>
-                            <ul class="list-group list-group-horizontal ">
-                                <li class="list-group-item p-0 border-0 ">
-                                    <!-- star -->
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-star-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                                    </svg>
-                                </li>
-                                <li class="list-group-item p-0 border-0 ">4.81</li>
-                                <li class="list-group-item p-0 border-0 "><a href="#">84 recensioni</li></a>
-                            </ul>
-
-
-
-                            <hr class="my-3 ">
-                            <div class="col-1 ">
-                                <img src="./assets/imgs/propic.png" class="img-fluid rounded-start" width="50"
-                                    height="50" alt="...">
-                            </div>
-                            <div class="col-11 ">
-                                <div class="card-body p-0 ">
-                                    <h5 class="card-title">Nome dell'host: Sabina</h5>
-                                    <ul class="list-group list-group-horizontal ">
-                                        <li class="list-group-item p-0 border-0 ">Superhost</li>
-                                        <li class="list-group-item p-0 border-0 ">5 anni di esperienza come host</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <hr>
-                        <div class="row g-0">
-                            <div class="col-1 ">
-                                <!-- vasca -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
-                                    role="presentation" focusable="false"
-                                    style="display: block; height: 24px; width: 24px; fill: currentcolor;">
-                                    <path
-                                        d="M26 2a1 1 0 0 1 .92.61l.04.12 2 7a1 1 0 0 1-.85 1.26L28 11h-3v5h6v2h-2v13h-2v-2.54a3.98 3.98 0 0 1-1.73.53L25 29H7a3.98 3.98 0 0 1-2-.54V31H3V18H1v-2h5v-4a1 1 0 0 1 .88-1h.36L6.09 8.4l1.82-.8L9.43 11H12a1 1 0 0 1 1 .88V16h10v-5h-3a1 1 0 0 1-.99-1.16l.03-.11 2-7a1 1 0 0 1 .84-.72L22 2h4zm1 16H5v7a2 2 0 0 0 1.7 1.98l.15.01L7 27h18a2 2 0 0 0 2-1.85V18zm-16-5H8v3h3v-3zm14.24-9h-2.49l-1.43 5h5.35l-1.43-5z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <div class="col-11 ">
-                                <div class="card-body p-0 ">
-                                    <h5 class="card-title">Spazio di lavoro dedicato</h5>
-                                    <p class="card-text">Un'area comune con connessione wifi, adatta per lavorare.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row g-0">
-                            <div class="col-1 ">
-                                <!-- porta -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
-                                    role="presentation" focusable="false"
-                                    style="display: block; height: 24px; width: 24px; fill: currentcolor;">
-                                    <path
-                                        d="M24.33 1.67a2 2 0 0 1 2 1.85v24.81h3v2H2.67v-2h3V3.67a2 2 0 0 1 1.85-2h.15zm-4 2H7.67v24.66h12.66zm4 0h-2v24.66h2zm-7 11a1.33 1.33 0 1 1 0 2.66 1.33 1.33 0 0 1 0-2.66z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <div class="col-11 ">
-                                <div class="card-body p-0 ">
-                                    <h5 class="card-title">Self check-in</h5>
-                                    <p class="card-text">Esegui autonomamente il check-in usando la cassetta di sicurezza.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row g-0">
-                            <div class="col-1 ">
-                                <!-- calendario -->
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
-                                    role="presentation" focusable="false"
-                                    style="display: block; height: 24px; width: 24px; fill: currentcolor;">
-                                    <path
-                                        d="M11.67 0v1.67h8.66V0h2v1.67h6a2 2 0 0 1 2 1.85v16.07a2 2 0 0 1-.46 1.28l-.12.13L21 29.75a2 2 0 0 1-1.24.58H6.67a5 5 0 0 1-5-4.78V3.67a2 2 0 0 1 1.85-2h6.15V0zm16.66 11.67H3.67v13.66a3 3 0 0 0 2.82 3h11.18v-5.66a5 5 0 0 1 4.78-5h5.88zm-.08 8h-5.58a3 3 0 0 0-3 2.82v5.76zm-18.58-16h-6v6h24.66v-6h-6v1.66h-2V3.67h-8.66v1.66h-2z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <div class="col-11 ">
-                                <div class="card-body p-0 ">
-                                    <h5 class="card-title">Cancellazione gratuita entro il giorno 25 mag</h5>
-                                    <p class="card-text">Se dovessi cambiare idea, riceverai un rimborso totale.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="col-12 ">
-                            <div class="card-body ">
-                                <p class="card-text">Alcune informazioni sono state tradotte automaticamente.</p>
-                                <a class="card-link" href="#">Mostra il testo nella lingua originale</a>
-                            </div>
-                        </div>
-                        <div class="col-12 ">
-                            <div class="card-body p-0 ">
-                                <p class="card-text">
-                                    Un accogliente punto di appoggio fuori dal caos del centro cittadino. 28 mq con tutto
-                                    ciò
-                                    che serve
-                                    per cucinare,
-                                    rilassarsi, sentirsi a casa. Colazione inclusa. Posteggi gratis in strada. Lavatrice,
-                                    stendino,
-                                    mollette, asse e ferro
-                                    da stiro; fornetto elettrico, microonde, lavastoviglie. Bagno: lavandino, bidet, doccia.
-                                    Tavoli e
-                                    sedie, armadio,
-                                    poltrona dondolo. Divano letto matrimoniale. Libri su Genova e la Liguria, giochi da
-                                    tavolo,
-                                    cd,
-                                    radio. Wi-Fi pocket. No
-                                    TV.
-    
-                                    Lo spazio
-                                    Una piccola palazzina costruita nel 1850 che un tempo era un mulino.
-                                    Una casetta dal soffitto basso ma piena di luce grazie alle tre finestre esposte a sud.
-    
-                                    Accesso per gli ospiti
-                                    Gli ospiti avranno a loro disposizione l'intera casa (eccezion fatta per gli scaffali
-                                    del
-                                    ripostiglio nel sottoscala in
-                                    cui ci sono oggetti personali della host).
-                                    Parcheggio gratis ovunque nei dintorni della casa.
-                                    Comodità per chi ha l'auto a metano: punto di rifornimento vicinissimo a casa.
-                                    Per chi vuole raggiungere il centro città, l'entroterra oppure andare a ponente o
-                                    levante:
-                                    ingresso
-                                    dell'autostrada
-                                    (Genova Bolzaneto) a 1,5 km.
-    
-                                    Altre cose da tenere a mente
-                                    Al momento del check-in verrà richiesto ad ogni ospite il documento di identità.
-    
-                                    Soggiorni oltre i 30 giorni (con contratto transitorio registrato, come obbligatorio per
-                                    legge) sono
-                                    permessi
-                                    esclusivamente tra ottobre e marzo.
-    
-                                    È un quartiere in cui ancora (per fortuna) si può trovare chi svolge lavori manuali.
-                                    Potrebbe
-                                    esserci del rumore dovuto
-                                    a questo. Mi scuso in anticipo per l’eventuale disagio.
-                                </p>
-                                <div class="d-flex align-items-center">
-                                    <a class="card-link me-1 " href="#">Mostra altro</a>
-                                    <!-- parentesi angolare chiusa -->
-                                    <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false"
-                                        style="height: 12px; width: 12px; display: block; fill: var(--linaria-theme_palette-hof);">
-                                        <path
-                                            d="m4.29 1.71a1 1 0 1 1 1.42-1.41l8 8a1 1 0 0 1 0 1.41l-8 8a1 1 0 1 1 -1.42-1.41l7.29-7.29z"
-                                            fill-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-3 p-4">
+                <!-- diamond -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#E31E5F" class="bi bi-gem"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6zm11.386 3.785-1.806-2.41-.776 2.413zm-3.633.004.961-2.989H4.186l.963 2.995zM5.47 5.495 8 13.366l2.532-7.876zm-1.371-.999-.78-2.422-1.818 2.425zM1.499 5.5l5.113 6.817-2.192-6.82zm7.889 6.817 5.123-6.83-2.928.002z" />
+                </svg>
+              </div>
+              <div class="col-md-9">
+                <div class="card-body ps-0 ">
+                  <h5 class="card-title">Un'occasione unica</h5>
+                  <p class="card-text">L'alloggio di Sabina solitamente è al completo.</p>
                 </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+          </div>
+
+          <div class="text-center">
+            <!-- flag -->
+            <span class="me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flag-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12 12 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A20 20 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a20 20 0 0 0 1.349-.476l.019-.007.004-.002h.001" />
+              </svg>
+            </span>
+            <a href="#" class="link-body-emphasis ">Segnala questo annuncio</a>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
