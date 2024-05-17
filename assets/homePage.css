@@ -49,3 +49,12 @@ input:focus {
     justify-content: center !important;
   }
 }
+
+footer a{
+    color: black;
+    font-size: larger;
+}
+footer  li{
+   list-style: none;
+   display: flex;
+}
