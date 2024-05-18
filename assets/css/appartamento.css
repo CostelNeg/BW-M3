@@ -72,4 +72,189 @@ body {
 #social,
 .list-group-item {
   background-color: #f7f7f7;
+=======
+.btn-primary {
+  --bs-btn-color: black;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg: #f7f7f7;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: black;
+  --bs-btn-active-bg: #f7f7f7;
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+.btn-secondary {
+  --bs-btn-color: white;
+  --bs-btn-bg: #e61e4d;
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: #d70466;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: white;
+  --bs-btn-active-bg: #e31c5f;
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+.btn-terziary {
+  --bs-btn-color: black;
+  --bs-btn-bg: white;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg: ##f7f7f7;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: black;
+  --bs-btn-active-bg: #f7f7f7;
+  --bs-btn-active-border-color: black;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+.btn-quartery {
+  --bs-btn-color: white;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: grey;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: white;
+  --bs-btn-active-bg: grey;
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+body {
+  padding: 0 20%;
+}
+.bg-primary {
+  --bs-primary-rgb: 247, 247, 247;
+}
+.central-dot::before {
+  content: "•";
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+#gallery .row .row img {
+  max-height: 200px;
+}
+#gallery img:nth-child(2) {
+  border-top-right-radius: 30px;
+}
+#gallery img:nth-child(4) {
+  border-bottom-right-radius: 30px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-wrap {
+  height: 90px;
+}
+.priceList > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#price .list-group-item:nth-of-type(1) {
+  border-radius: 0;
+  border-top-left-radius: 8px;
+}
+#price .list-group-item:nth-of-type(2) {
+  border-radius: 0;
+  border-top-right-radius: 8px;
+}
+#price .list-group-item:nth-of-type(3) {
+  border-radius: 0;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.cosaTroverai {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cosaTroverai > div {
+  display: flex;
+  margin-bottom: 1em;
+  width: 50%;
+}
+
+.descrizione {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+#doveDormirai img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.apriCarosello {
+  border: 1px solid grey;
+}
+#gallery button {
+  border: 1px solid black;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  position: absolute;
+  right: 7%;
+  bottom: 5%;
+}
+
+#carosello {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  text-align: center;
+}
+#carosello span {
+  color: white;
+}
+#carosello a {
+  color: white;
+}
+img {
+  cursor: pointer;
+}
+
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+
 }
