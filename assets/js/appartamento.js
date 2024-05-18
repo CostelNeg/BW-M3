@@ -1,3 +1,8 @@
+
+function toggleReview(Id) {
+  document.getElementById(Id).classList.toggle("short-review");
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   const calendarEl = document.getElementsByClassName("calendario");
   for (const cal of calendarEl) {
@@ -17,3 +22,4 @@ function toggleCarousel() {
   main[0].classList.toggle("d-none");
   document.getElementById("carosello").classList.toggle("d-none");
 }
+

@@ -2,6 +2,77 @@ html,
 body {
   font-size: 0.9rem;
 }
+
+.roberta {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#conf {
+  background-color: #f7f7f7;
+}
+.short-review {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.vl {
+  border-left: 1px solid gray;
+  height: 100px;
+}
+
+#Layer_1 {
+  rotate: 90deg;
+  width: 50px;
+  height: 50px;
+}
+.commenti img {
+  border-radius: 50%;
+  cursor: pointer; /* Cambia il cursore in una mano */
+}
+#breadcrumb {
+  background-color: #f7f7f7;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-top: 5px;
+}
+.central-dot::before {
+  content: "•";
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.read-more-btn {
+  cursor: pointer; /* Cambia il cursore in una mano */
+  transition: text-decoration 0.3s ease; /* Aggiunge una transizione per un effetto più fluido */
+}
+
+.Portofino {
+  cursor: pointer; /* Cambia il cursore in una mano */
+  transition: text-decoration 0.3s ease; /* Aggiunge una transizione per un effetto più fluido */
+}
+
+.more {
+  cursor: pointer; /* Cambia il cursore in una mano */
+  transition: text-decoration 0.3s ease; /* Aggiunge una transizione per un effetto più fluido */
+}
+#interactive-list li {
+  cursor: pointer; /* Cambia il cursore in una mano */
+  transition: text-decoration 0.3s ease; /* Aggiunge una transizione per un effetto più fluido */
+}
+
+#interactive-list li:hover {
+  text-decoration: underline; /* Sottolinea il testo al passaggio del mouse */
+}
+
+#social,
+.list-group-item {
+  background-color: #f7f7f7;
+=======
 .btn-primary {
   --bs-btn-color: black;
   --bs-btn-bg: transparent;
@@ -185,4 +256,5 @@ img {
 .hvr-shrink:focus, .hvr-shrink:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
+
 }
