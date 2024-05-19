@@ -1,164 +1,51 @@
-.container {
-    text-align: center;
-    padding: 20px;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
 }
+.container{
+    width: 80%;
+    margin: auto;
+}
+
 iframe {
     width: 90%;
     height: 450px;
     border: 1px solid #ccc;
     margin-top: 20px;
 }
-.description, .location-list, .reviews {
-    margin-top: 20px;
-    font-size: 16px;
-    color: #333;
-}
-.location-list ul {
-    text-align: left;
-    display: inline-block;
-}
 
-.rating {
-    font-size: 24px;
-    color: #FFD700; 
+h3{
+font-size:x-large;
+margin-bottom: 10px;
+font-weight: 600;
 }
-.review-count {
-    font-size: 20px;
-    color: #333;
-}
-.learn-more {
-    font-size: 14px;
-    text-decoration: none;
-    color: blue;
-}
-.learn-more:hover {
-    text-decoration: underline;
-}
-
-.review-card {
-    margin-bottom: 20px; 
-}
-.profile-pic {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-.card-title {
-    font-size: 16px; 
-}
-.card-text {
-    font-size: 14px; 
-}
-.learn-more {
-    font-size: 14px;
-    text-decoration: none;
-    color: blue;
-}
-
-.header-container {
-text-align: center;
-font-family: Arial, sans-serif;
-}
-
-h1 {
-font-size: 24px;
-color: #333;
-text-align: left;
-margin-left: 20px;
-}
-
-.sub-header {
-font-size: 18px;
-color: #666;
-margin-top: 8px;
-text-align: left;
-margin-left: 20px;
-}
-
-.card-content p,
-.card-content a {
-    margin: 0 0 10px 0;
-}
-
-.card .date {
-    font-weight: bold;
-}
-
-.card .time {
-    color: gray;
-}
-
-.card .link {
-    display: block;
-    color: #000;
-    text-decoration: none;
+ div h5{
+    color:rgb(46, 43, 43);
+    font-size: medium;
+    font-weight: 200;
+    margin-left: 0;
+    margin-top: 0;
     margin-bottom: 10px;
 }
+.container div h5:nth-child(1){
+color: black;
+margin-top: 20px;
+margin-bottom: 20px;
+font-weight: 550;
 
-.card .link:hover {
+}
+
+span{
     text-decoration: underline;
+    
 }
-
-.card .price {
-    font-size: 18px;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 20px;
+svg{
+    width: 13px;
+    height: 13px;
 }
-
-.card .btn {
-    background-color: #ff007f;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
-}
-
-.card .btn:hover {
-    background-color: #e60074;
-}
-
-#more-dates {
-display: block;
-margin: auto;
-padding: 10px 20px;
-font-size: 16px;
-cursor: pointer;
-border-radius: 4px;
-
-
-}
-
-.footer {
-    background-color: #f8f9fa;
-    padding: 1rem 0;
-  }
-  .footer .text-uppercase {
-    margin-bottom: 1rem;
-  }
-  .footer ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  .footer ul li a {
-    color: #000;
-    text-decoration: none;
-  }
-  .footer ul li a:hover {
-    text-decoration: underline;
-  }
-  .footer-bottom {
-    border-top: 1px solid #e0e0e0;
-    padding-top: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .social-icons a {
-    color: #000;
-    margin-right: 1rem;
-    font-size: 1.5rem;
-  }
+   div + div{
+    margin-top: 30px;
+   }
