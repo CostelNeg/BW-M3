@@ -4,7 +4,7 @@ height: 500px;
 display: flex;
 justify-content: start;
 align-items: center;
-background-color: rgb(143, 177, 211);
+background-color: rgb(9, 193, 249);
 padding-bottom: 70px;
 margin-bottom: 50px;
 }
@@ -98,6 +98,7 @@ footer h2{
 }
 a{
     margin-right: 20px; 
+    
   
     
 }
@@ -109,7 +110,8 @@ footer{
     display: flex;
     width: 80%;
     margin-left: 115px;
-    margin: auto;
+    
+    margin-top: 40px;
 }
 footer .table{
     display: flex;
@@ -125,6 +127,52 @@ address div{
 }
 address div p:nth-child(1){
     color:black;
+    font-weight: 500;
+}
+
+.sec5 h1{
+    font-size: small;
+}
+.sec5{
+    display: flex;
+    border-bottom: solid gray 1px;
+    width: 80%;
+    margin: auto;
+    margin-left: 115px;
+}
+#secondoDiv{
+    display: none;
+}
+#terzoDiv{
+    display: none;
+}
+#quartoDiv{
+    display: none;
+}
+#quintoDiv{
+    display: none;
+}
+#sestoDiv{
+    display: none;
+}
+.altreInfo{
+    display: flex;
+    margin-left: 0;
     
     
+    
+}
+.altreInfo p{
+    margin-bottom: 0;
+    margin-right: 50px;
+    ;
+}
+.altreInfo p:nth-child(2){
+    margin-bottom: 30px;
+    color: gray;
+}
+.altreInfo p:nth-child(1){
+    margin-top: 15px;
+    color: black;
+    font-weight: 500;
 }
