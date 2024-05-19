@@ -58,3 +58,27 @@ footer  li{
    list-style: none;
    display: flex;
 }
+
+main{
+  margin-top: 2em;
+}
+
+main .card{
+  border-radius: 5%;
+border: 0px;
+width: 16em;
+}
+.card img{
+    border-radius: 5%;
+    width:100%;
+}
+main .card p, h3{
+    margin: 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+main .card:hover{
+padding: 10px;
+  box-shadow:10px 5px 5px 10px #888888;
+}
