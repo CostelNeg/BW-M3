@@ -13,6 +13,82 @@
 </head>
 
 <body>
+  <header class="container-fluid">
+    <div class="navbarHome bg-white text-dark  pb-0">
+      <nav class="navbar-lg-fluid container">
+        <div class="row align-items-center">
+          <div class="col-3 col-sm-3 order-sm-1">
+            <a href="index.html">
+              <img src="./assets/imgs/logo-pink.png" alt="" style="width: 80px; height: 40px;">
+            </a>
+          </div>
+  
+          <div class="col-9 col-sm-3 ms-auto order-sm-3 d-flex justify-content-end align-items-center flex-wrap gap-2">
+            <a href="">Become a host</a>
+            <a href="" class="bi bi-globe mx-2"></a>
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary rounded-pill text-center  border bg-white p-1" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-list me-1"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-person-fill"
+                  viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                </svg>
+                </i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                <li><button class="dropdown-item" type="button">Registrati</button></li>
+                <li><button class="dropdown-item" type="button">Accedi</button></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><button class="dropdown-item" type="button">Affitta con Airbnb</button></li>
+                <li><button class="dropdown-item" type="button">Centro Assistenza</button></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col order-sm-2 disapper">
+            <div class="d-flex justify-content-center gap-4 pb-3">
+              <a href="">Places to stay</a>
+              <a href="">Experiences</a>
+              <a href="">Online Experiences</a>
+            </div>
+          </div>
+        </div>
+        <!-- MOBILE -->
+        <div class="d-flex justify-content-center d-md-none">
+          <form action="" class="rounded-pill bg-white p-2 d-flex justify-content-between align-items-center" role="">
+            <input type="text" placeholder="Where are you going?" name="location">
+            <button class="bi bi-search btn btn-secondary "></button>
+          </form>
+        </div>
+        <!-- DESKTOP -->
+        <div class="searchBarDesktop d-none d-md-block">
+          <form action="" class="border rounded-pill bg-white d-flex justify-content-between align-items-center px-3 py-2"
+            role="">
+            <div>
+              <h6>Location</h6>
+              <input type="text" placeholder="Where are you going?" name="location">
+            </div>
+            <div>
+              <h6>Check-in</h6>
+              <input type="date" placeholder="" name="check-in" class="text-secondary me-3">
+            </div>
+            <div>
+              <h6>Check-out</h6>
+              <input type="date" placeholder="" name="check-out" class="text-secondary me-3">
+            </div>
+            <div class="guests">
+              <h6>Guests</h6>
+              <input type="text" placeholder="Add guests" name="guests">
+            </div>
+            <button class="bi bi-search btn btn-secondary"></button>
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
   <section id="carosello" class="container-fluid d-none ">
     <div class="row ">
       <div class="d-flex justify-content-between mb-5 col-12 p-5 ">

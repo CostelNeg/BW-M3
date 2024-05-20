@@ -2,6 +2,63 @@ html,
 body {
   font-size: 0.9rem;
 }
+@import url("https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@300;600&display=swap");
+* {
+  font-family: "Tsukimi Rounded", sans-serif;
+}
+.navbarHome input {
+  border: transparent;
+}
+
+.navbarHome a {
+  text-decoration: none;
+  color: rgb(26, 24, 24);
+}
+
+.navbarHome {
+  font-size: 14px;
+}
+
+.guests input {
+  width: 82px;
+  overflow: hidden;
+}
+
+input:focus {
+  outline: none;
+}
+
+@media (max-width : 768px){
+  .disapper{
+    display: none;
+  }
+}
+
+.searchBarDesktop form {
+  max-width: 700px;
+}
+
+.bi-search {
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #ff385c;
+  height: 30px;
+  width: 30px;
+  padding-left: 6px;
+  padding-top: 3px;
+}
+
+.bi-list {
+  color: grey;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .searchBarDesktop {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
 
 .roberta {
   width: 50px;
