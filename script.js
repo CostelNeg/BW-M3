@@ -72,5 +72,9 @@ Controlla se l'elemento div esiste.
 
 9,divElement.style.display = (key === linkText) ? 'block' : 'none';
 
+<<<<<<< HEAD
 Se il testo del link corrisponde alla chiave, imposta il display del div su 'block' (mostra i
+=======
+Se il testo del link corrisponde alla chiave, imposta il display del div su 'block' (mostra il div). Altrimenti, lo nasconde impostando il display su 'none'.
+>>>>>>> 461a35e7d6bdc102a38c75810776dc906a92a38d
 
