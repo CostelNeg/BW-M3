@@ -1,1 +1,3 @@
-https://miro.com/welcomeonboard/dzNxeFdJeExjdlJIVXl3VUljaWhZWExJY3daSHdWMENBSThkQ2xCY0p6Q1BobVpUTUR6Z2JoUXBIMzRmNkRvaXwzNDU4NzY0NTg4ODUwMDQ3NjM0fDI=?share_link_id=732144830679
+# AirBnb Clone
+
+Clone della home page e della pagina appartamento del sito di [AirBnb](https://www.airbnb.com/).
